@@ -13,7 +13,7 @@ int main(void)
 
 	for (i = 1; i <= r; i++)
 	{
-		for (j = i; j < r; j++)
+		for (j = 1; j <= r - i; j++)
 		{
 			printf(" ");
 		}
@@ -23,4 +23,5 @@ int main(void)
 		}
 		printf("\n");
 	}
+	return (0);
 }
